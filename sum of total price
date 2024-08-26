@@ -1,0 +1,10 @@
+const ordersList=[
+    {Nmae: "laptop",price:12000},
+    {Name: "mobile",price:70000},
+    {Nmae: "mobile charger",price:1500},
+    {Name: "Laptop charger",price:5000},
+];
+
+let sum=0;
+ordersList.forEach((data)=>(sum+=data.price));
+console.log("the total price is Rs",sum);
